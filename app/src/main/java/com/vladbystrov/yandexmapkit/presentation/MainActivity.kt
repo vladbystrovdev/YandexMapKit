@@ -1,7 +1,8 @@
-package com.vladbystrov.yandexmapkit
+package com.vladbystrov.yandexmapkit.presentation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.vladbystrov.yandexmapkit.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
