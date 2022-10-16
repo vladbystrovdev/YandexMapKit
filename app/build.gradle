@@ -32,6 +32,10 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+
+    buildFeatures {
+        viewBinding true
+    }
 }
 
 dependencies {
@@ -45,7 +49,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
     //YandexMapKit
-    implementation 'com.yandex.android:maps.mobile:4.2.1-full'
+    implementation 'com.yandex.android:maps.mobile:4.1.0-full'
 
     //Dagger hilt
     implementation "com.google.dagger:hilt-android:2.44"
